@@ -1,0 +1,47 @@
+
+
+.navbar {
+ height: 70px;
+ background: #ffc600;
+ padding: .4rem;
+ grid-area: navbar;
+ 
+}
+
+
+
+.navbar ul {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+
+  
+  }
+  
+  .navbar li {
+  list-style: none;
+  
+  }
+
+  .navbar ul li a {
+    
+    display: block;
+    text-transform: uppercase;
+    font-size: .8rem;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  
+  }
+
+  .navbar ul li a:hover
+  
+   {
+
+    background: #000;
+    color: #fff;
+
+  }
+

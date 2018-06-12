@@ -1,0 +1,81 @@
+.content{
+
+    background: url(../images/adult-attractive-beautiful-950308.jpg);
+
+&__img-text {
+
+        /* position: absolute; */
+        /* top:50%; */
+        transform: translateY(-120%);
+        left:0;
+        max-width: 10rem;
+        margin-left: auto;
+        text-align: center;
+        color: #fff;
+        margin:0;
+        padding: 20px;
+        font-size: .5rem;
+
+        @media (min-width: 530px) {
+                font-size: 1rem;
+                transform: translateY(-140%);
+                max-width: 30rem;
+
+                }
+
+        @media (min-width: 800px)  {
+        font-size: 1rem;
+        color:#fff;
+        transform: translateY(-240%);
+
+
+} 
+
+}
+
+&__title {
+
+        font-weight: 200;
+        font-size: 1rem;
+        margin:0;
+        padding: 5px;
+
+        @media (min-width: 530px) {
+                font-size: 1.3rem;
+              
+}
+@media (min-width: 800px)  {
+        font-size: 2.5rem;
+        color:#fff;
+      
+} 
+   
+}
+
+&__second-title {
+
+        font-weight: 100;
+        font-size: .8rem;
+        padding: 5px;
+
+        
+       
+        @media (min-width: 530px) {
+                font-size: .7rem;
+        
+}
+@media (min-width: 800px)  {
+        font-size: 1.2rem;
+        color:#fff;
+      
+
+}
+
+   
+} 
+
+}
+
+
+
+
